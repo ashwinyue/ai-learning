@@ -38,6 +38,9 @@ venv/
 ENV/
 env/
 
+# uv
+.uv/
+
 # Cache
 .cache/
 *.cache
