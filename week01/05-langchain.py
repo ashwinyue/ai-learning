@@ -44,7 +44,7 @@ def demo_llm_chain():
     chain = prompt_template | llm
     
     # 执行链 - 变量注入
-    result = chain.invoke({"topic": "人工智能", "style": "科普"})
+    result = chain.invoke({"topic" : "人工智能", "style": "科普"})
     print(f"📝 LLMChain 输出：\n{result.content}\n")
     
     return result.content
